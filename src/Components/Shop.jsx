@@ -27,7 +27,7 @@ const Shop = () => {
         <div
           data-aos="slider-down"
           data-aos-delay="400"
-          className="bg-red-600 p-12 lg:w-[70%] w-full flex flex-col justify-center items-start ga-5"
+          className="bg-red-600 p-12 lg:w-[70%] w-full flex flex-col justify-center items-start ga-5 rounded-3xl"
         >
           <h1 className="text-white text-[30px] font-Lobster">Online Shop</h1>
           <p className="text-white text-[50px] font-light leading-[50px]">
@@ -37,12 +37,12 @@ const Shop = () => {
         <div
           data-aos="slide-down"
           data-aos-delay="400"
-          className="bg-white lg:p-12 p-8 lg:w-[90%] w-full flex flex-col items-start gap-[45px]"
+          className="bg-white lg:p-12 p-8 lg:w-[90%] w-full flex flex-col items-start gap-[20px] rounded-3xl"
         >
-          <h1 className="text-[55px] font-Lobster leading-[65px]">
+          <h1 className="text-[45px] font-Lobster leading-[65px]">
             Ice Cream & Vegan Ice Cream
           </h1>
-          <p className="text-[20px] text-justify">
+          <p className="text-[18px] text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
             distinctio ut nulla obcaecati quaerat voluptas, ea tempore quae
             possimus similique!

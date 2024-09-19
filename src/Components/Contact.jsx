@@ -1,12 +1,16 @@
 import React, { useEffect } from "react";
-import { FaPhoneVolume, FaFacebookF } from "react-icons/fa6";
+import { FaPhoneVolume, FaFacebookF, FaSquareUpwork  } from "react-icons/fa6";
 import contactimg from "../assets/contact.png";
-import { BsInstagram } from "react-icons/bs";
-import { FaYoutube } from "react-icons/fa";
+import { FaLinkedin, FaWhatsapp  } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Contact = () => {
+
+  const handleIconClick = (url) => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+};
+
   useEffect(() => {
     AOS.init({
       offset: 200,
@@ -88,10 +92,10 @@ const Contact = () => {
             Shahrah-e-Faisal Rd, near Lal Kothi (house), Karachi, 75400
           </p>
           <h1 className="text-[30px] text-red-600 font-Lobster">
-            (021) 34385418
+          +92 305 832 2008
           </h1>
-          <h1 className="text-[30px] text-red-600 font-Lobster">
-            Aptech@gmail.com
+          <h1 className="text-[26px] text-red-600 font-Lobster">
+            syedkashifshah3@gmail.com
           </h1>
         </div>
         <div
@@ -119,10 +123,31 @@ const Contact = () => {
 
           {/* Social icons */}
           <div className="flex justify-start items-center gap-6 w-full">
-            <FaFacebookF className="fill-white hover:fill-red-600 text-2xl" />
-            <BsInstagram className="fill-white hover:fill-red-600 text-2xl" />
-            <FaYoutube className="fill-white hover:fill-red-600 text-2xl" />
-          </div>
+            <div 
+                onClick={() => handleIconClick('https://www.facebook.com/syed.kashifshah143')} 
+                className="cursor-pointer"
+            >
+                <FaFacebookF className="fill-white hover:fill-red-600 text-2xl" />
+            </div>
+            <div 
+                onClick={() => handleIconClick('https://www.linkedin.com/in/syed-kashif-shah-a917082a1/')} 
+                className="cursor-pointer"
+            >
+                <FaLinkedin  className="fill-white hover:fill-red-600 text-2xl" />
+            </div>
+            <div 
+                onClick={() => handleIconClick('https://www.upwork.com/freelancers/~01f0a2e0476db2ea6d')} 
+                className="cursor-pointer"
+            >
+                <FaSquareUpwork  className="fill-white hover:fill-red-600 text-2xl" />
+            </div>
+            <div 
+                onClick={() => handleIconClick('https://wa.link/bzc5c9')} 
+                className="cursor-pointer"
+            >
+                <FaWhatsapp   className="fill-white hover:fill-red-600 text-2xl" />
+            </div>
+        </div>
         </div>
       </div>
     </div>
