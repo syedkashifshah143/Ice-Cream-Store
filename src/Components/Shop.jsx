@@ -39,7 +39,7 @@ const Shop = () => {
           data-aos-delay="400"
           className="bg-white lg:p-12 p-8 lg:w-[90%] w-full flex flex-col items-start gap-[45px]"
         >
-          <h1 className="text-[65px] font-Lobster leading-[65px]">
+          <h1 className="text-[55px] font-Lobster leading-[65px]">
             Ice Cream & Vegan Ice Cream
           </h1>
           <p className="text-[20px] text-justify">
