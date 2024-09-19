@@ -13,7 +13,10 @@ const Shop = () => {
   }, []);
 
   return (
-    <div id="shop" className="w-full lg:px-[170px] px-[20px] lg:pt-[150px] pt-[60px] pb-[0px] bg-gray-300 flex lg:flex-row flex-col justify-center items-start">
+    <div
+      id="shop"
+      className="w-full lg:px-[170px] px-[20px] lg:pt-[150px] pt-[60px] pb-[0px] bg-gray-300 flex lg:flex-row flex-col justify-center items-start"
+    >
       <div className="lg:w-[50%] w-full">
         <img
           data-aos="slide-right"
@@ -37,15 +40,22 @@ const Shop = () => {
         <div
           data-aos="slide-down"
           data-aos-delay="400"
-          className="bg-white lg:p-12 p-8 lg:w-[90%] w-full flex flex-col items-start gap-[20px] rounded-3xl"
+          className="bg-white lg:p-8 mt-[180px] p-8 lg:w-[90%] w-full flex flex-col items-start gap-[12px] rounded-3xl"
         >
-          <h1 className="text-[45px] font-Lobster leading-[65px]">
+          <h1 className="text-[35px] font-Lobster leading-[45px]">
             Ice Cream & Vegan Ice Cream
           </h1>
           <p className="text-[18px] text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-            distinctio ut nulla obcaecati quaerat voluptas, ea tempore quae
-            possimus similique!
+            Ice cream is a classic frozen dessert made from dairy, featuring
+            rich flavors like chocolate and vanilla. Its creamy texture comes
+            from blending milk, cream, sugar, and various flavorings. Vegan ice
+            cream, on the other hand, is a delicious dairy-free alternative.
+            Made with plant-based ingredients such as almond milk, coconut milk,
+            or soy milk, it offers a creamy consistency without animal products.
+            Both options can be enjoyed in cones, sundaes, and shakes, making
+            them versatile treats. Whether you’re a fan of traditional ice cream
+            or looking for vegan choices, there’s a flavor for everyone to
+            enjoy!
           </p>
           <button className="bg-red-600 px-10 py-3 text-white rounded-full font-semibold">
             REACH US

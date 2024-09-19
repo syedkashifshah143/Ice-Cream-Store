@@ -32,9 +32,7 @@ const Contact = () => {
         </h1>
         <div className="bg-red-600 h-2 w-[100px]"></div>
         <p className="text-[20px] text-center mb-[30px] leading-[40px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-          mollitia consequuntur sit repellat ipsa nostrum, modi ab id similique
-          adipisci.
+        If you have any questions or need assistance, please don’t hesitate to reach out! You can email & Phone Number or use the form below. Our team will do our best to respond to your inquiry promptly. Your feedback and suggestions are very important to us!
         </p>
         <div className="flex justify-center items-center gap-4">
           <FaPhoneVolume className="fill-red-600 text-4xl" />
@@ -51,13 +49,11 @@ const Contact = () => {
           data-aos-delay="400"
           className="lg:w-[50%] w-full bg-white lg:p-12 p-7 flex flex-col justify-center items-start gap-6 lg:h-[520px] h-fit z-20"
         >
-          <h1 className="text-[50px] font-Lobster leading-[50px]">
+          <h1 className="text-[40px] font-Lobster leading-[50px]">
             Ice Cream Layer Cakes!
           </h1>
           <p className="text-[20px] text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            necessitatibus placeat ut eaque a illum delectus quasi distinctio,
-            laudantium deserunt!
+          Ice cream layer cakes are a delightful dessert that combines cake and ice cream in delicious layers. Typically, a layer of cake is followed by a layer of your favorite ice cream, and this can be repeated with different flavors.
           </p>
           <button className="bg-red-600 px-10 py-3 text-white rounded-full font-semibold">
             READ MORE
